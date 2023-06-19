@@ -13,7 +13,7 @@ nav{
    padding: 20px; 
 }
 .conteiner{
-    width: 1200px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
     border: 1px dashed black;
@@ -65,14 +65,41 @@ a{
 .align-text{
     text-align: end;
 }
-.size{
-    background-color: #00008B;
+.big-box{
     height: 400px;
 }
-.box{
+.back-blue{
+    background-color: #00008B;
+}
+.box-unique{
     width: 800px;
     height: 300px;
     background-color: #EE82EE;
     border: 1px dashed black;
+}
+.box{
+    max-width: 1200px;
+    min-height: 400px;
+    margin: auto;
+    
+}
+.md-box{
+    width: 70%;
+    height: 300px;
+    border: 1px dashed black;
 
+}
+.sm-box{
+    width: 30%;
+    height: 300px;
+    border: 1px dashed black;
+}
+.back-white{
+    background-color: white;
+}
+.back-light-blue{
+    background-color: #1E90FF;
+}
+.back-pink{
+    background-color: #FFC0CB;
 }
