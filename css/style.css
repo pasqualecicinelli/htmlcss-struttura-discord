@@ -65,12 +65,21 @@ a{
 .align-text{
     text-align: end;
 }
+    /* box */
+.sup-big-box{
+    height: 600px;
+}
 .big-box{
     height: 400px;
 }
-.back-blue{
-    background-color: #00008B;
+.sup-box{
+    width: 1200px;
+    height: 500px;
+    border: 1px dashed black;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 .box-unique{
     width: 800px;
     height: 300px;
@@ -79,9 +88,9 @@ a{
 }
 .box{
     max-width: 1200px;
-    min-height: 400px;
-    margin: auto;
-    
+    min-height: 400px; 
+    margin-left: auto;
+    margin-right: auto;
 }
 .md-box{
     width: 70%;
@@ -94,6 +103,10 @@ a{
     height: 300px;
     border: 1px dashed black;
 }
+    /* color */
+.back-blue{
+    background-color: #00008B;
+}
 .back-white{
     background-color: white;
 }
@@ -102,4 +115,10 @@ a{
 }
 .back-pink{
     background-color: #FFC0CB;
+}
+.back-light-grey{
+    background-color: #D3D3D3;
+}
+.back-green{
+    background-color: #228B22;
 }
