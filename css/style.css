@@ -5,14 +5,17 @@
 }
 
 header {
-    background-color: #ADD8E6;
     height: 80px;
+    background-color: #ADD8E6;
     font-family: Arial, Helvetica, sans-serif;
+    padding: 1.5rem;
 }
 
 nav {
     width: 100%;
-    height: 80px;
+    height: 35px;
+    border: 1px dashed black;
+    background-color: #DAA520;
 }
 
 footer{
@@ -22,24 +25,30 @@ footer{
 
 .conteiner {
     width: 1000px;
-    border: 1px dashed black;
-    background-color: #DAA520;
+    height: 35px;
+    margin: auto;
+    
     
 }
 
 .small-nav {
     width: 20%;
+    height: 100%;
     border: 1px dashed black;
 
 }
 
 .link {
     width: 60%;
+    height: 100%;
     border: 1px dashed black;
 }
 
 .flex {
     display: flex;
+}
+.row-dir{
+    flex-direction: row;
 }
 
 .justify-between {
@@ -122,7 +131,7 @@ button{
 }
 
 .box-unique {
-    width: 900px;
+    width: 800px;
     height: 400px;
     background-color: #EE82EE;
     border: 1px dashed black;
